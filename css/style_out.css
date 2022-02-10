@@ -1,0 +1,68 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+th {
+    border: solid 1px;              /* 枠線指定 */
+	padding: 5px;
+	padding-right: 20px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+td {
+    border: solid 1px;              /* 枠線指定 */
+	padding: 5px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+p {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-left: 30px;
+} 
+table {
+    border-collapse:  collapse;     /* セルの線を重ねる */
+	margin-top: 10px;
+	margin-left: 30px;
+}
+thead {
+	background-color: skyblue;
+}
+.tablesorter-headerUnSorted {
+    background-image: url('../img/icons_sort.png');
+	background-repeat: no-repeat;
+    background-position: center right;
+}
+.tablesorter-headerAsc {
+    background-image: url('../img/icons_up.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    border-bottom: #000 2px solid;
+}
+.tablesorter-headerDesc {
+    background-image: url('../img/icons_down.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    border-bottom: #000 2px solid;
+}
